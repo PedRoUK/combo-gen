@@ -13,17 +13,9 @@ Listed in no particular order. Features will most likely be added/removed based 
 - [ ] Selectable known patterns
 - [ ] Optional background looper
 - [ ] Tempo adjustments
-<<<<<<< HEAD
 * Adjust BPM
 * Quantize shift
 * Double-time/Half-time
 * Independant of looper but maybe connected?
-- [ ] Record user audio
-- [ ] Metronome
-=======
-  * Adjust BPM
-  * Quantize shift
-  * Double-time/Half-time
-    * Independant of looper but maybe connected?
 - [ ] Record user audio
 - [ ] Metronome

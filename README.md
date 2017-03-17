@@ -27,4 +27,3 @@ Listed in no particular order. Features will most likely be added/removed based 
     * Independant of looper but maybe connected?
 - [ ] Record user audio
 - [ ] Metronome
->>>>>>> 99d915ae7eb386d082442689f88edf7439a818fd

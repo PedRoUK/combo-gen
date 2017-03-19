@@ -1,4 +1,6 @@
 # Combo-Generator
+
+[![Join the chat at https://gitter.im/combo-gen/Lobby](https://badges.gitter.im/combo-gen/Lobby.svg)](https://gitter.im/combo-gen/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 This program is a combo generator for scratch djs.
 ## What Will This Thing Do?
 At its lowest level, users will be able to select from a list of scratches which ones they know. Upon submission, the program will auto-generate a combination of these scratches into a loopable output. The combination will be displayed on screen for the user to see as well. The generated "sentence" should never be longer than the loop length if loop length is used.

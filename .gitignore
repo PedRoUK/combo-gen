@@ -9,6 +9,10 @@
 dist/
 *_old.*
 
+# Resources #
+#############
+*.gliffy
+
 # Temporary files #
 ###################
 *.swp

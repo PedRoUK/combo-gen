@@ -21,7 +21,6 @@ dist/
 
 # Test/Custom Pages #
 ##############
-*test.*
 *custom.*
 
 # Packages #

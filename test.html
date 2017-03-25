@@ -1,0 +1,50 @@
+<!doctype html>
+
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Super Cool Combo Generator Thingy</title>
+      <meta name="description" content="A scratch combination generator for djs" />
+      <meta name="author" content="James Murphy" />
+      <meta name="application-name" content="Super Cool Combo Generator Thingy" />
+      
+   </head>
+   <body>
+      <header>
+         
+      </header>
+      <main>
+        <form name="combo-looper">
+           <label for="library">Select Scratch Library</label>
+           <select id="library" name="scratches">
+              <option value="0" selected></option>
+              <option value="test">Library 1</option>
+              <option value="undefined">Library 2</option>
+           </select>
+           <fieldset>
+              <legend>Would you like to play a looper?</legend>
+              <input id="looper_yes" type="radio" name="looper" value="yes">
+              <label for="looper_yes">Yes</label>
+              <input id="looper_no" type="radio" name="looper" value="no" checked="checked">
+              <label for="looper_no">No</label>
+           </fieldset>
+           <label for="looper">Select Looper</label>
+           <select id="looper" name="select" disabled="true">
+              <option value="none_selected" selected></option>
+              <option value="90BPM.mp3">Looper 1</option>
+           </select>
+           <button type="button" id="load" disabled="true">Load Settings</button>   |||   
+           <button type="button" id="play" disabled="true" playback="paused" loop_type="fresh">Play Loop</button>
+           <button type="button" id="reset">Reset Loop</button>
+        </form>
+      </main>
+      <footer>
+         
+      </footer>
+      
+      <script src="test_load_library.js"></script>
+      
+   </body>
+</html>
